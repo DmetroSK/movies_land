@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+/*b3duZXJzOnNheXUgYW5kIHByYW11ZGl0aGEg*/ 
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+
+.h1 {
+  color: #fff;
+  font-size: 50px;
+}
+
+.h1 small {
+  color: #ddd;
+  font-size: 25px;
+}
+
+.h1,
+.h3,
+small,
+label,
+.modal-title {
+  font-family: Lato;
+  font-weight: 300;
+}
+
+label {
+  color: #666;
+  font-weight: 400;
+}
+
+.h1 .fa-envelope {
+  font-size: 35px;
+}
+
+.btn-success {
+  padding: 10px 25px;
+}
+.row{width:1000px;
+padding-left:50px;}

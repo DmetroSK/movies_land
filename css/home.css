@@ -1,0 +1,35 @@
+/*b3duZXJzOnNheXUgYW5kIHByYW11ZGl0aGEg*/ 
+.table{
+	 padding-left: 100px;
+	
+	}
+	
+	
+	
+	 .h2{
+	padding-left: 100px;
+	color:#DBD6D6;
+	}
+	
+	.h3{
+	padding-top: 20px;
+	 text-align: center;
+	}
+	
+	.img-responsive{
+	margin-bottom: 15px;
+	border: 5px solid white;
+	vertical-align: middle;
+		}
+.browse-movie-title{color: #fff;
+    font-weight: 700;
+    display: block;
+			-webkit-transition: color .15s ease-in-out;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+			font-size: .85em;
+			
+			
+			}
+			/*b3duZXJzOnNheXUgYW5kIHByYW11ZGl0aGEg*/ 

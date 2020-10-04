@@ -1,0 +1,64 @@
+/*b3duZXJzOnNheXUgYW5kIHByYW11ZGl0aGEg*/ 
+.com{
+	color: white;
+	
+	}
+.main{
+	
+    text-align: center;
+	font-family: verdana;
+	text-shadow: 3px 2px blue;
+	 font-size: 80px;
+	 color:#BCC028;
+	}
+	
+.log{padding-top: 20px;
+    padding-right: 30px;
+   text-align: right;
+	
+	
+	}
+	
+	
+	
+	a:link {
+    color: white; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    
+}
+
+a:active {
+    color: white;
+    background-color: transparent;
+}
+
+ 
+
+.window-margin {
+  max-width: 1200px;
+  padding: 60px;
+  margin: auto;
+}
+
+.window {
+  margin: auto;
+  border-radius: 5px;
+  background: #2B2B2B;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+   margin: auto;
+}
+/*b3duZXJzOnNheXUgYW5kIHByYW11ZGl0aGEg*/ 

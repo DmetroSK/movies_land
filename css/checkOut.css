@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+/* b3duZXJzOnNheXUgYW5kIHByYW11ZGl0aGEg */
+
+
+#success_message{ display: none;}
+
+.name{padding-left: 200px;
+        padding-bottom: 10px;}
+		
+		
+		.well{width:1000px;
+		padding-left:100px;}
+		#contact_form{padding-left:200px;}
