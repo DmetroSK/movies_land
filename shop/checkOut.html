@@ -1,283 +1,363 @@
-<!doctype html>
+<!DOCTYPE html>
 <!-- b3duZXJzOnNheXUgYW5kIHByYW11ZGl0aGEg -->
 <html>
-<head>
-<meta charset="utf-8">
-<link rel="stylesheet" href="../css/styles.css"><!--rel=relationship between the current document and the linked document -->
-<link rel="stylesheet" href="../css/movies.css">
-<link rel="stylesheet" href="../css/menu.css"><!--menu-->
-<!--form-->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <!--rel=relationship between the current document and the linked document -->
+    <link rel="stylesheet" href="../css/movies.css" />
+    <link rel="stylesheet" href="../css/menu.css" />
+    <!--menu-->
+    <!--form-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+      type="text/javascript"
+    ></script>
 
+    <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css"
+    />
 
-  
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css">
+    <link rel="stylesheet" href="../css/checkOut.css" />
+    <!--form-->
+    <title>Checkout</title>
+  </head>
 
-      <link rel="stylesheet" href="../css/checkOut.css">
-      <!--form-->
-<title>Checkout</title>
-</head>
-
-<body background="../images/background.png">
-
-<div class="com log">
-<a href="../signup.html">Sign Up | Log In</a>
-</div>
-
-<div class="window-margin">
- <div class="window">
-
-
-<br/>
- <h1 class="com main">Checkout</h1>
- <br/><br/><br/>
- <!--menu-->
-  <div id="container">
-<ul id="menu">
-  <li><a href="../index.html"><br/>Menu</a>
-		
-	</li>
-	<li><a href="../home.html"><br/>Home</a>
-		
-	</li>
-
-	<li><a href="Movies.html"><br/>Movies</a>
-		
-	</li>
-
-	<li><a href="T-Shirts.html"><br/>T-Shirts</a>
-		
-	</li>
-
-	<li><a href="Caps.html"><br/>Caps</a>
-		
-	</li>
-	<li><a href="Phone Covers.html"><br/>Phone <br/><br/>Covers</a>
-		
-	</li>
-	<li><a href="Stickers.html"><br/>Stickers</a>
-		
-	</li>
-	<li><a href="Mugs.html"><br/>Mugs</a></li>
-</ul>
-</div>
- 
-
- <!--menu--> 
- 
- <div class="container">
-
-    <form class="well" action=" " method="post"  id="contact_form">
-<fieldset>
-
-<!-- Form Name -->
-
-
-<!-- Text input-->
-
-<div class="form-group">
-  <label class="col-md-4 control-label">First Name</label>  
-  <div class="col-md-4 inputGroupContainer">
-  <div class="input-group">
-  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-  <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
+  <body background="../images/background.webp">
+    <div class="com log">
+      <a href="../signup.html">Sign Up | Log In</a>
     </div>
-  </div>
-</div>
 
-<!-- Text input-->
+    <div class="window-margin">
+      <div class="window">
+        <br />
+        <h1 class="com main">Checkout</h1>
+        <br /><br /><br />
+        <!--menu-->
+        <div id="container">
+          <ul id="menu">
+            <li>
+              <a href="../index.html"><br />Menu</a>
+            </li>
+            <li>
+              <a href="../home.html"><br />Home</a>
+            </li>
 
-<div class="form-group">
-  <label class="col-md-4 control-label" >Last Name</label> 
-    <div class="col-md-4 inputGroupContainer">
-    <div class="input-group">
-  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-  <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
+            <li>
+              <a href="Movies.html"><br />Movies</a>
+            </li>
+
+            <li>
+              <a href="T-Shirts.html"><br />T-Shirts</a>
+            </li>
+
+            <li>
+              <a href="Caps.html"><br />Caps</a>
+            </li>
+            <li>
+              <a href="Phone Covers.html"><br />Phone <br /><br />Covers</a>
+            </li>
+            <li>
+              <a href="Stickers.html"><br />Stickers</a>
+            </li>
+            <li>
+              <a href="Mugs.html"><br />Mugs</a>
+            </li>
+          </ul>
+        </div>
+
+        <!--menu-->
+
+        <div class="container">
+          <form class="well" action=" " method="post" id="contact_form">
+            <fieldset>
+              <!-- Form Name -->
+
+              <!-- Text input-->
+
+              <div class="form-group">
+                <label class="col-md-4 control-label">First Name</label>
+                <div class="col-md-4 inputGroupContainer">
+                  <div class="input-group">
+                    <span class="input-group-addon"
+                      ><i class="glyphicon glyphicon-user"></i
+                    ></span>
+                    <input
+                      name="first_name"
+                      placeholder="First Name"
+                      class="form-control"
+                      type="text"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- Text input-->
+
+              <div class="form-group">
+                <label class="col-md-4 control-label">Last Name</label>
+                <div class="col-md-4 inputGroupContainer">
+                  <div class="input-group">
+                    <span class="input-group-addon"
+                      ><i class="glyphicon glyphicon-user"></i
+                    ></span>
+                    <input
+                      name="last_name"
+                      placeholder="Last Name"
+                      class="form-control"
+                      type="text"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- Text input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label">E-Mail</label>
+                <div class="col-md-4 inputGroupContainer">
+                  <div class="input-group">
+                    <span class="input-group-addon"
+                      ><i class="glyphicon glyphicon-envelope"></i
+                    ></span>
+                    <input
+                      name="email"
+                      placeholder="E-Mail Address"
+                      class="form-control"
+                      type="text"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- Text input-->
+
+              <div class="form-group">
+                <label class="col-md-4 control-label">Phone #</label>
+                <div class="col-md-4 inputGroupContainer">
+                  <div class="input-group">
+                    <span class="input-group-addon"
+                      ><i class="glyphicon glyphicon-earphone"></i
+                    ></span>
+                    <input
+                      name="phone"
+                      placeholder="(845)555-1212"
+                      class="form-control"
+                      type="text"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- Text input-->
+
+              <div class="form-group">
+                <label class="col-md-4 control-label">Address</label>
+                <div class="col-md-4 inputGroupContainer">
+                  <div class="input-group">
+                    <span class="input-group-addon"
+                      ><i class="glyphicon glyphicon-home"></i
+                    ></span>
+                    <input
+                      name="address"
+                      placeholder="Address"
+                      class="form-control"
+                      type="text"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- Select Basic -->
+
+              <div class="form-group">
+                <label class="col-md-4 control-label">State</label>
+                <div class="col-md-4 selectContainer">
+                  <div class="input-group">
+                    <span class="input-group-addon"
+                      ><i class="glyphicon glyphicon-list"></i
+                    ></span>
+                    <select name="state" class="form-control selectpicker">
+                      <option value=" ">Please select your District</option>
+                      <option>Ampara</option>
+                      <option>Anuradhapura</option>
+                      <option>Badulla</option>
+                      <option>Batticaloa</option>
+                      <option>Colombo</option>
+                      <option>Galle</option>
+                      <option>Gampaha</option>
+                      <option>Hambantota</option>
+                      <option>Jaffna</option>
+                      <option>Kalutara</option>
+                      <option>Kandy</option>
+                      <option>Kegalle</option>
+                      <option>Kilinochchi</option>
+                      <option>Kurunegala</option>
+                      <option>Mannar</option>
+                      <option>Matale</option>
+                      <option>Matara</option>
+                      <option>Monaragala</option>
+                      <option>Mullaitivu</option>
+                      <option>Nuwara Eliya</option>
+                      <option>Polonnaruwa</option>
+                      <option>Puttalam</option>
+                      <option>Ratnapura</option>
+                      <option>Trincomalee</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Text input-->
+
+              <div class="form-group">
+                <label class="col-md-4 control-label">City</label>
+                <div class="col-md-4 inputGroupContainer">
+                  <div class="input-group">
+                    <span class="input-group-addon"
+                      ><i class="glyphicon glyphicon-home"></i
+                    ></span>
+                    <input
+                      name="city"
+                      placeholder="city"
+                      class="form-control"
+                      type="text"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- Text input-->
+
+              <div class="form-group">
+                <label class="col-md-4 control-label">Zip Code</label>
+                <div class="col-md-4 inputGroupContainer">
+                  <div class="input-group">
+                    <span class="input-group-addon"
+                      ><i class="glyphicon glyphicon-home"></i
+                    ></span>
+                    <input
+                      name="zip"
+                      placeholder="Zip Code"
+                      class="form-control"
+                      type="text"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- radio checks -->
+              <div class="form-group">
+                <label class="col-md-4 control-label">Pay with</label>
+                <div class="col-md-4">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="paytyp" value="paypal" /> Paypal
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="paytyp" value="card" /> Credit
+                      or debit card
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <!-- Text input-->
+
+              <div class="form-group">
+                <label class="col-md-4 control-label">Card Number</label>
+                <div class="col-md-4 inputGroupContainer">
+                  <div class="input-group">
+                    <span class="input-group-addon"
+                      ><i class="glyphicon glyphicon-card"></i
+                    ></span>
+                    <input
+                      name="phone"
+                      placeholder="1111-2222-3333-4444"
+                      class="form-control"
+                      type="text"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- Text input-->
+
+              <div class="form-group">
+                <label class="col-md-4 control-label">CVV</label>
+                <div class="col-md-4 inputGroupContainer">
+                  <div class="input-group">
+                    <span class="input-group-addon"
+                      ><i class="glyphicon glyphicon-card"></i
+                    ></span>
+                    <input
+                      name="phone"
+                      placeholder="555"
+                      class="form-control"
+                      type="text"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- Text area -->
+
+              <div class="form-group">
+                <label class="col-md-4 control-label">Extra words</label>
+                <div class="col-md-4 inputGroupContainer">
+                  <div class="input-group">
+                    <span class="input-group-addon"
+                      ><i class="glyphicon glyphicon-pencil"></i
+                    ></span>
+                    <textarea
+                      class="form-control"
+                      name="comment"
+                      placeholder="Project Description"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Success message -->
+              <div
+                class="alert alert-success"
+                role="alert"
+                id="success_message"
+              >
+                Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for
+                contacting us, we will get back to you shortly.
+              </div>
+
+              <!-- Button -->
+              <div class="form-group">
+                <label class="col-md-4 control-label"></label>
+                <div class="col-md-4">
+                  <button type="submit" class="btn btn-warning">
+                    Confirm and Pay
+                    <span class="glyphicon glyphicon-send"></span>
+                  </button>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+        <!-- /.container -->
+
+        <!-- 6b5828781e8b32c285033d09c246733d -->
+      </div>
+      <!-- window end-->
     </div>
-  </div>
-</div>
+    <!-- window margin end-->
 
-<!-- Text input-->
-       <div class="form-group">
-  <label class="col-md-4 control-label">E-Mail</label>  
-    <div class="col-md-4 inputGroupContainer">
-    <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-  <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
-    </div>
-  </div>
-</div>
-
-
-<!-- Text input-->
-       
-<div class="form-group">
-  <label class="col-md-4 control-label">Phone #</label>  
-    <div class="col-md-4 inputGroupContainer">
-    <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-  <input name="phone" placeholder="(845)555-1212" class="form-control" type="text">
-    </div>
-  </div>
-</div>
-
-<!-- Text input-->
-      
-<div class="form-group">
-  <label class="col-md-4 control-label">Address</label>  
-    <div class="col-md-4 inputGroupContainer">
-    <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-  <input name="address" placeholder="Address" class="form-control" type="text">
-    </div>
-  </div>
-</div>
-
- <!-- Select Basic -->
-   
-<div class="form-group"> 
-  <label class="col-md-4 control-label">State</label>
-    <div class="col-md-4 selectContainer">
-    <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
-    <select name="state" class="form-control selectpicker" >
-      <option value=" " >Please select your District</option>
-      <option>Ampara</option>
-      <option>Anuradhapura</option>
-      <option >Badulla</option>
-      <option >Batticaloa</option>
-      <option >Colombo</option>
-      <option >Galle</option>
-      <option >Gampaha</option>
-      <option >Hambantota</option>
-      <option >Jaffna</option>
-      <option> Kalutara</option>
-      <option >Kandy</option>
-      <option >Kegalle</option>
-      <option >Kilinochchi</option>
-      <option >Kurunegala</option>
-      <option >Mannar</option>
-      <option >Matale</option>
-      <option> Matara</option>
-      <option >Monaragala</option>
-      <option >Mullaitivu</option>
-      <option>Nuwara Eliya</option>
-      <option >Polonnaruwa</option>
-      <option> Puttalam</option>
-      <option >Ratnapura</option>
-      <option >Trincomalee</option>
-      
-    </select>
-  </div>
-</div>
-</div>
-
-<!-- Text input-->
-
-<div class="form-group">
-  <label class="col-md-4 control-label">City</label>  
-    <div class="col-md-4 inputGroupContainer">
-    <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-  <input name="city" placeholder="city" class="form-control"  type="text">
-    </div>
-  </div>
-</div>
-
-
-
-<!-- Text input-->
-
-<div class="form-group">
-  <label class="col-md-4 control-label">Zip Code</label>  
-    <div class="col-md-4 inputGroupContainer">
-    <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
-  <input name="zip" placeholder="Zip Code" class="form-control"  type="text">
-    </div>
-</div>
-</div>
-
-
-
-<!-- radio checks -->
- <div class="form-group">
-                        <label class="col-md-4 control-label">Pay with</label>
-                        <div class="col-md-4">
-                            <div class="radio">
-                                <label>
-                                    <input type="radio" name="paytyp" value="paypal" /> Paypal
-                                </label>
-                            </div>
-                            <div class="radio">
-                                <label>
-                                    <input type="radio" name="paytyp" value="card" /> Credit or debit card
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-<!-- Text input-->
-       
-<div class="form-group">
-  <label class="col-md-4 control-label">Card Number</label>  
-    <div class="col-md-4 inputGroupContainer">
-    <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-card"></i></span>
-  <input name="phone" placeholder="1111-2222-3333-4444" class="form-control" type="text">
-    </div>
-  </div>
-</div>
-
-<!-- Text input-->
-       
-<div class="form-group">
-  <label class="col-md-4 control-label">CVV</label>  
-    <div class="col-md-4 inputGroupContainer">
-    <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-card"></i></span>
-  <input name="phone" placeholder="555" class="form-control" type="text">
-    </div>
-  </div>
-</div>
-
-<!-- Text area -->
-  
-<div class="form-group">
-  <label class="col-md-4 control-label">Extra words</label>
-    <div class="col-md-4 inputGroupContainer">
-    <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-        	<textarea class="form-control" name="comment" placeholder="Project Description"></textarea>
-  </div>
-  </div>
-</div>
-
-<!-- Success message -->
-<div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div>
-
-<!-- Button -->
-<div class="form-group">
-  <label class="col-md-4 control-label"></label>
-  <div class="col-md-4">
-    <button type="submit" class="btn btn-warning" >Confirm and Pay <span class="glyphicon glyphicon-send"></span></button>
-  </div>
-</div>
-
-</fieldset>
-</form>
-
-    </div><!-- /.container -->
- 
- 
-
- 
-<!-- 6b5828781e8b32c285033d09c246733d --> 
- </div><!-- window end-->
-</div><!-- window margin end-->
-
-<script  src="../js/checkOut.js"></script>
-
-</body>
+    <script src="../js/checkOut.js"></script>
+  </body>
 </html>
